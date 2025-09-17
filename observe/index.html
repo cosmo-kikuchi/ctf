@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="FLAG{hidden_flag_placeholder}">
+  <meta name="keywords" content="HTML, meta, element, attribute, tutorial, form">
+  <title>HTML基礎の観察</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #222;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    header {
+      background: #0d1b40;
+      color: #fff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #ccc;
+    }
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 24px;
+      margin: 0 0 12px;
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      margin-top: 40px;
+      padding: 15px 0;
+    }
+    a {
+      color: #0d1b40;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>HTML基礎の観察ページ</h1>
+      <p>文書構造や主要な要素を理解し、ブラウザ上でどのように表示されるかを学びます。</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>HTML文書の基本構造</h2>
+        <p>
+          HTML文書は <code>&lt;!DOCTYPE html&gt;</code> で文書の種類を宣言して始まります。<br>
+          文書全体は <code>&lt;html&gt;</code> 要素で囲まれ、<code>&lt;head&gt;</code> と <code>&lt;body&gt;</code> に分かれます。
+        </p>
+        <p>
+          <code>&lt;head&gt;</code> にはページタイトルや文字コード、meta情報、外部ファイルへのリンクなどが含まれます。<br>
+          <code>&lt;body&gt;</code> にはブラウザに表示される本文や画像、リンク、テーブル、フォームなどが入ります。
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>meta情報とは</h2>
+        <p>
+          <code>&lt;meta&gt;</code> タグはページの文字コード、説明、キーワードなどを設定できます。<br>
+          これにより、検索エンジンやスクリーンリーダーなどの補助ツールに、ページの情報を伝えることができます。
+        </p>
+      </section>
+
+    </main>
+
+    <footer>
+      &copy; 2025 HTML基礎チュートリアル
+    </footer>
+  </div>
+</body>
+</html>
